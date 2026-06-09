@@ -61,7 +61,7 @@ export function PortfolioPage({ locale }: PortfolioPageProps) {
         <div className="container hero-shell simple-hero">
           <div className="hero-portrait">
             <div className="hero-portrait-frame">
-              <Image src={profile.photo} alt={copy.hero.alt} width={320} height={320} priority />
+              <Image src={withBasePath(profile.photo)} alt={copy.hero.alt} width={320} height={320} priority />
             </div>
           </div>
           <h1>
